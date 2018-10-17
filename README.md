@@ -1,0 +1,32 @@
+# DA practicing github
+
+### Description 
+
+The R markdown I have uploaded uses an open source New York Motor Vehicle Accidents Data set, acquired from 
+(http://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95) website. The code consists of basic analysis
+of data, with a visual of accidents occurring in each Borough in New York City.
+
+### Prerequisites
+
+The programs that I used to work through this project is:
+
+[R](https://cran.r-project.org/mirrors.html) in [Rstudio](https://www.rstudio.com/products/rstudio/download/) - visualizing and cleaning of data
+
+
+### Installing
+
+In order to install Rstudio you will first need to install R. You can install R  and you can use any of the versions to install it onto your computer. After you install R you should install Rstudio which is an inferface to code in R (we have installed the free version).
+
+Python is a simple coding language run through terminal or jupyter.
+
+Tableau is a visualization software that has an available free trial period and if you are associated with a university you can download it for a year.
+
+## Authors
+* **Danish Siddiquie** - [danishsiddiquie](https://github.com/danishsiddiquie)
+
+
+## Acknowledgments
+
+*Sarah Supp
+*Drew
+*Alex Barnes
