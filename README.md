@@ -4,7 +4,7 @@
 
 The R markdown I have uploaded uses an open source New York Motor Vehicle Accidents Data set, acquired from 
 (http://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95) website. The code consists of basic analysis
-of data, with a visual of accidents occurring in each Borough in New York City.
+of data, with a visual of accidents occurring in each Borough in New York City. Although the rmd file is present for the analysis, the data itself is too big to be uploaded, and thus the link above can be used to obtain the data.
 
 ### Prerequisites
 
