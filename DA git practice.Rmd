@@ -29,6 +29,8 @@ max(vehicle$LONGITUDE,na.rm=TRUE)
 min(vehicle$LONGITUDE,na.rm=TRUE)
 ```
 
+We began the project by wanting to create a map that would show all of the boroughs for anyone who was not familiar with New York. Our dataset had a lot of NA values and other values for longitude and latitude that did not make sense so we started by filtering those values out of the dataset as well as any NA values for boroughs. We then found the max and min values for latitude and longitude to help us create a map that would be able to show all of the boroughs. After we found these values we created our map and found the proper zoom.
+
 ```{r bar for number of accidents by borough}
 ggplot(vehicle,aes(as.factor(BOROUGH)))+
   geom_bar(aes(fill=BOROUGH))+
@@ -36,3 +38,5 @@ ggplot(vehicle,aes(as.factor(BOROUGH)))+
   labs(x="Borough",y="No. of accidents", title="Barplot of no. of accidents \n in each Borough")+
   theme(plot.title = element_text(hjust = .5),legend.position = "none")
 ```  
+
+We then created a bar plot of the number of accidents in each of the boroughs. We found that Brooklyn has the highest number of accidents, Manhattan and Queens are very similar in amount, while The Bronx and Staten Island only have about half and a quarter respectively of accidents that Manhattan has.
