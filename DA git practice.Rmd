@@ -1,0 +1,38 @@
+---
+title: "partial indiv project"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(ggmap)
+library(ggthemes)
+
+vehicle_draft<-read.csv("NYPD_Motor_Vehicle_Collisions.csv")
+```
+
+
+```{r ny data cleaning}
+
+vehicle<-vehicle_draft%>%filter(LATITUDE>39 & LATITUDE<45 & LONGITUDE>"-70" & LONGITUDE<"-75")
+vehicle<-vehicle%>%filter(BOROUGH!="")
+vehicle<-vehicle%>%filter(!is.na(BOROUGH))
+
+max(vehicle$LATITUDE,na.rm=TRUE)
+min(vehicle$LATITUDE,na.rm=TRUE)
+max(vehicle$LONGITUDE,na.rm=TRUE)
+min(vehicle$LONGITUDE,na.rm=TRUE)
+```
+
+```{r bar for number of accidents by borough}
+ggplot(vehicle,aes(as.factor(BOROUGH)))+
+  geom_bar(aes(fill=BOROUGH))+
+  theme_calc()+
+  labs(x="Borough",y="No. of accidents", title="Barplot of no. of accidents \n in each Borough")+
+  theme(plot.title = element_text(hjust = .5),legend.position = "none")
+```  
