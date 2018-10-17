@@ -24,6 +24,8 @@ In order to install Rstudio you will first need to install R. You can install R 
 
 ## Acknowledgments
 
+This project is a partial analysis of the overall analysis done by me, Drew, and Alex Barnes back in 2017 in DA 101 taught by Dr. Sarah Supp. The data is public and not confidential. The partial code has been uploaded with the consent of both my team members Drew and Alex.
+
 * Sarah Supp
 * Drew
 * Alex Barnes
