@@ -24,6 +24,6 @@ In order to install Rstudio you will first need to install R. You can install R 
 
 ## Acknowledgments
 
-*Sarah Supp
-*Drew
-*Alex Barnes
+* **Sarah Supp
+* **Drew
+* **Alex Barnes
