@@ -20,6 +20,8 @@ The programs that I used to work through this project is:
 
 [R](https://cran.r-project.org/mirrors.html) in [Rstudio](https://www.rstudio.com/products/rstudio/download/) - visualizing, cleaning, and analysis of data
 
+Microsoft Excel, csv format
+
 
 ### Installing
 
